@@ -1,0 +1,44 @@
+/*
+* Sarah Houseal
+* 12/3/18
+* Girl Develop It
+*/
+
+/* The Universal Selector */
+
+* {
+
+}
+
+/* Body Attributes Go Here */
+body {
+    background-color: #FFE3E0;
+    font-family: Helvetica, sans-serif;
+}
+header {
+    background-color: #F1636A;
+    text-align: center;
+}
+h2 {
+    font-family: cursive
+}
+/* The img id, #girl, specifies that the 'girl' image is being modified */
+#girl {
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+/* The img id, #friends, specifies that the 'friends' is being modified */
+#friends {
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+/* The hover and focus styles change the appearance of my link when it is hovered over to turn pink and expand */
+a:hover, a:focus {
+   color: deeppink;
+    font-size: 24px;
+}
+footer {
+    font-family: "Times New Roman", Serif;
+}
